@@ -4,25 +4,6 @@ This project demonstrates how to perform basic sales data analysis using SQL que
 
 ---
 
-## 📁 Folder Structure
-
-```
-sales_analysis_project/
-│
-├── data/
-│   └── sales_data.db           # SQLite database file
-│
-├── sql/
-│   └── query.sql               # SQL file with analysis query
-│
-├── charts/
-│   └── sales_chart.png         # Output chart (auto-generated)
-│
-├── sales_analysis.py           # Main Python script
-└── README.md                   # Project overview and setup instructions
-```
-
----
 
 ## 🚀 Features
 
@@ -41,11 +22,6 @@ Install Python dependencies via pip:
 pip install pandas matplotlib
 ```
 
-Or use the provided `requirements.txt` file:
-
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
@@ -74,8 +50,4 @@ FROM sales
 GROUP BY product;
 ```
 
----
 
-## 🧑‍💻 Author
-
-Your Name - [GitHub](https://github.com/yourusername)
